@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../styles/music.css">
+    <title>siame</title>
+</head>
+<body>
+<div id="frame" class="frame">
+<div class="item1">
+<div class="ball-wrapper" >
+    <div class="ball" ></div>
+</div>
+</div>
+<div class="item2">
+    <div class="wrapper">
+        <div class="minimize">
+            <div class="div" ></div>
+        </div>
+    <div class="maximize">
+<div></div>
+    </div>
+    <div class="close">
+    <div class="lines">
+        <div class="line1" ></div>
+        <div class="line2" ></div>
+    </div>
+    </div>
+    </div>
+</div>
+</div>
+    <div class="layer1">
+<div id="left-bar" class="left-bar">
+   <div>
+    <a href="./index.html"><img src="../../icons/1179069.png" alt="">videos </a>
+    <a href="./music.html"><img src="../../icons/1384061.png" alt="">music</a>
+    <a href="./photos.html"><img src="../../icons/2659360.png" alt="">photos</a>
+   </div>
+</div>
+<div id="right-bar" class="right-bar">
+  <div class="boxes">
+    <div class="box1">
+<label for="folder">
+    <p class="box1-text" >choose folder</p> <img src="../../icons/3979527.png" alt="">
+</label>
+<input type="file" multiple name="" directory webkitdirectory id="folder">
+    </div>
+    <div class="box2">
+        <label for="file">  
+            <p class="box2-text">choose a song</p> <img src="../../icons/651758.png" alt="">
+        </label>
+        <input type="file" accept="audio/*" id="file">
+    </div>
+  </div>
+
+  <div class="text-area">
+    <div class="area1">
+        <p class="msg"></p> 
+    </div> 
+    <div class="area2" >
+        <p class="results-found" ></p>
+    </div> 
+ </div>
+
+  <div class="list" id="list">
+     
+  </div>
+</div>
+</div>
+<div class="layer2">
+<div class="music-wrapper">
+<img id="back-ground" src="../../icons/giphy.gif" alt="">
+<div class="controllers">
+    <div class="ctr1">
+        <div class="progress"></div>
+    </div>
+    <div class="ctr2">
+        <div class="group1">
+            <div class="cover">
+    <img src="../../icons/875590.png" alt="">
+            </div>
+            <div class="song-name">
+    <p></p>
+            </div>
+        </div>
+        <div class="group2">
+            <button class="stop"><img src="../../icons/3138414.png" alt=""></button>
+            <button class="back"><img src="../../icons/next.png" alt=""></button>
+            <button class="pause"><img src="../../icons/icon (3).png" alt=""></button>
+            <button class="next"><img src="../../icons/next.png" alt=""></button>
+        </div>
+        <div class="group3">
+            <button class="shuffle"><img src="../../icons/3031725.png" alt=""></button>
+            <button class="repeat"><img src="../../icons/icon (31).png" alt=""></button>
+            <button class="volume"><img src="../../icons/3721694.png" alt=""><span class="volume-range-wrapper"><input type="range"   max="100"  class="volume-range" name="" id=""></span></button>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+<script src="../scripts/music.js"></script>
+</body>
+</html>

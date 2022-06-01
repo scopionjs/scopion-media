@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../styles/photos.css">
+    <title>siame</title>
+</head>
+<body>
+<div id="frame" class="frame">
+<div class="item1">
+<div class="ball-wrapper" >
+    <div class="ball" ></div>
+</div>
+</div>
+<div class="item2">
+    <div class="wrapper">
+        <div class="minimize">
+            <div class="div" ></div>
+        </div>
+    <div class="maximize">
+<div></div>
+    </div>
+    <div class="close">
+    <div class="lines">
+        <div class="line1" ></div>
+        <div class="line2" ></div>
+    </div>
+    </div>
+    </div>
+</div>
+</div>
+    <div class="layer1">
+<div id="left-bar" class="left-bar">
+   <div>
+    <a href="./index.html">  <img src="../../icons/1179069.png" alt="">videos </a>
+    <a href="./music.html"><img src="../../icons/1384061.png" alt="">music</a>
+    <a href="./photos.html"><img src="../../icons/2659360.png" alt="">photos</a>
+   </div>
+</div>
+<div id="right-bar" class="right-bar">
+  <div class="boxes">
+    <div class="box1">
+<label id="folder-label" for="folder">
+    <p class="box1-text" >choose folder</p> <img src="../../icons/3979527.png" alt="">
+</label>
+<input  type="file" multiple name="" directory webkitdirectory id="folder">
+    </div>
+    <div class="box2">
+        <label for="file">  
+            <p class="box2-text">choose a photo</p> <img src="../../icons/1040241.png" alt="">
+        </label>
+        <input type="file" accept="image/*" id="file">
+    </div>
+    
+  </div>
+  
+  <div class="text-area">
+    <div class="area1">
+        <p class="msg"></p> 
+    </div> 
+    <div class="area2" >
+        <p class="results-found" ></p>
+    </div> 
+ </div>
+
+  <div class="list" id="list"></div>
+</div>
+
+</div>
+
+<div class="layer2 ">
+<div>
+    <img class="image_to_view" src="" alt="">
+</div>
+<button class="prev" ><img src="../../icons/556670.png" alt=""></button>
+<button class="next" ><img src="../../icons/556670.png" alt=""></button>
+</div>
+<script src="../scripts/photos.js"></script>
+</body>
+</html>
